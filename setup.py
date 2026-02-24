@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'cobot_vizualization'
+package_name = 'cobot_visualization'
 
 setup(
     name=package_name,
