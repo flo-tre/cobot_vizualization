@@ -13,6 +13,9 @@ setup(
         ('share/' + package_name + '/rviz', [
             'rviz/view_cobot_camera.rviz',
         ]),
+        ('share/' + package_name + '/worlds', [
+            'worlds/world1.world',
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
